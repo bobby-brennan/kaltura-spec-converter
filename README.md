@@ -1,15 +1,3 @@
-# kaltura-spec-converter
-Converts the Kaltura API schema XML to an Open API document
+# DEPRECATED
 
-## Usage
-```
-node refresh.js --schema https://www.kaltura.com/api_v3/api_schema.php --output ./openapi.json
-```
-
-`--schema` argument can be a URL or a local file.
-
-You can exclude the `--schema` option by specifying environment variable `TARGET_API` as `ott` or `ovp`, e.g.
-
-```
-TARGET_API=ovp node refresh.js
-```
+Now located at [kaltura/xml-api-schema-openapi-converter](https://github.com/kaltura/xml-api-schema-openapi-converter)
